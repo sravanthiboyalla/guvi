@@ -20,7 +20,7 @@ class Leap
 		}
 		else
 		{
-			System.out.println("No");
+			System.out.println("no");
 		}
 	}
 }
