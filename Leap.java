@@ -12,7 +12,7 @@ class Leap
 		int n=sc.nextInt();
 		if(n%400==0)
 		{
-			System.out.println("Yes");
+			System.out.println("yes");
 		}
 		else if(n%4==0&&n%100!=0)
 		{
