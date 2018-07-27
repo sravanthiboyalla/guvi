@@ -13,9 +13,10 @@ class Arr
 		int k=sc.nextInt();
 		int sum=0;
 		int i;
+		int n1;
 		for(i=1;i<=n;i++)
 		{
-			System.out.println(i);	
+			n1=sc.nextInt();
 		}
 		for(i=1;i<=k;i++)
 		{
