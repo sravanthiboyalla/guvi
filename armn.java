@@ -25,6 +25,7 @@ class armn
                                  if(k==s) 
                                   { 
                                              System.out.println(k);
+					     System.out.println();
                                   } 
                       } 
 		
