@@ -13,7 +13,7 @@ class ev
 		Scanner sc=new Scanner(System.in);
 		int s=sc.nextInt();
 		int e=sc.nextInt();
-		for(int i=s+1;i<=e;i++)
+		for(int i=s+1;i<e;i++)
 		{
 			if(i%2==0)
 			{
