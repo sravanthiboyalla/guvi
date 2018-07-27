@@ -24,7 +24,7 @@ class prime1
 			}
 			if(count == 1)
 			{
-				System.out.println(i);
+				System.out.println(i );
 			}
 		}
 	}
