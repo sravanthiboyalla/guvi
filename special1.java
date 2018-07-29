@@ -11,7 +11,7 @@ class special1
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
 		int count=0;
-		for(int i=0;i<str.length();i++)
+		for(int i=0;i<=str.length()-1;i++)
 		{
 			if(!Character.isDigit(str.charAt(i))&&!Character.isAlphabetic(str.charAt(i)))
 			{
