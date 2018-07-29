@@ -13,7 +13,7 @@ class special1
 		int count=0;
 		for(int i=0;i<=str.length()-1;i++)
 		{
-			if(!Character.isDigit(str.charAt(i))&&!Character.isAlphabetic(str.charAt(i)))
+			if(!Character.isDigit(str.charAt(i))&&!Character.isAlphabetic(str.charAt(i))&&str.charAt(i)!='.')
 			{
 				count++;
 			}
