@@ -12,14 +12,13 @@ class fib
 		int n=sc.nextInt();
 		int a=1;
 		int b=1;
-		System.out.print(a+" "+b );
 		int c;
-		for(int i=1;i<n-1;i++)
+		for(int i=1;i<=n;i++)
 		{
+			System.out.print(a+" ");
 			c=a+b;
 			a=b;
 			b=c;
-			System.out.print(" "+c);
 		}
 	}
 }
