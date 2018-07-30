@@ -12,7 +12,7 @@ class print
 		String s=sc.nextLine();
 		for(int i=0;i<s.length();i++)
 		{	
-			System.out.print(s.charAt(i)+" "+" ");
+			System.out.print(s.charAt(i)+" ");
 		}
 	}
 }
