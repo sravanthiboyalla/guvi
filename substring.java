@@ -10,7 +10,11 @@ class substring
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
 		int n=sc.nextInt();
-		String re=s.substring(0,n);
+		String re="";
+		for(int i=0;i<n;i++)
+		{
+			re=re+s.charAt(i);
+		}
 		System.out.println(re);
 	}
 }
