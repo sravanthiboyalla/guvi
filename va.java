@@ -12,7 +12,7 @@ class va
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		int c=sc.nextInt();
-		int area=2*(a*b+b*c+c*a);
+		int area=(2*c)*(a+b);
 		int vol=(a*b*c);
 		System.out.println(area+" "+vol);
 	}
