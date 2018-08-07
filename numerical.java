@@ -3,30 +3,29 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class numberical
+class numerical
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
-		int count=0;
-		int count1=0;
-		for(int i=0;i<s.length();i++)
+		boolean b=true;
+		try
 		{
-			char c=s.charAt(i);
-			if(Character.isDigit(c))
-			{
-				count++;
-			}
-			else
-			{		
-				count1++;
-			}
+			Double num=Double.parseDouble(s);
 		}
-		if(count1==0)
-			System.out.println("Yes");
+		catch(NumberFormatException e)
+		{
+			b=false;
+		}
+		if(b)
+		{
+			System.out.println("yes");
+		}
 		else
-			System.out.println("No");
+		{
+			System.out.println("no");
+		}
 	}
 }
