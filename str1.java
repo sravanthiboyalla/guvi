@@ -9,7 +9,7 @@ class str1
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
+		String s=sc.next();
 		int n=sc.nextInt();
 		for(int i=0;i<n;i++)
 		{
