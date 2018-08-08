@@ -9,12 +9,12 @@ class long
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		String s1=Integer.toString(a);
-		String s2=Integer.toString(b);
+		long a=sc.nextInt();
+		long b=sc.nextInt();
+		String s1=Long.toString(a);
+		String s2=Long.toString(b);
 		String s3=s1+s2;
-		int c=Integer.valueOf(s3).intValue();
+		long c=Long.valueOf(s3).longValue();
 		System.out.println(c);
 	}
 }
