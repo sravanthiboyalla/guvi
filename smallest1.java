@@ -9,29 +9,17 @@ class smallest1
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int n1=sc.nextInt();
-		int n2=sc.nextInt();
-		if(n1>n2)
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int lcm=a>b?a:b;
+		while(true)
 		{
-			if(n1%n2==0)
+			if(lcm%a==0&&lcm%b==0)
 			{
-				System.out.println(n1);	
+				System.out.println(lcm);
+				break;
 			}
-			else
-			{
-				System.out.println(n1*n2);
-			}
-		}
-		else
-		{
-			if(n2%n1==0)
-			{
-				System.out.println(n2);
-			}
-			else
-			{
-				System.out.println(n1*n2);
-			}
-		}
+			lcm++;
+		} 
 	}
 }
