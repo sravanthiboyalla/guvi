@@ -10,7 +10,7 @@ class holiday1
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
-		if(s.equals("Sunday"))
+		if(s.equals("Sunday")||s.equals("Saturday"))
 			System.out.println("yes");
 		else
 			System.out.println("no");
