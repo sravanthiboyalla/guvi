@@ -21,11 +21,11 @@ class nume
 		}
 		if(b)
 		{
-			System.out.println("Yes");
+			System.out.println("yes");
 		}
 		else
 		{
-			System.out.println("No");
+			System.out.println("no");
 		}
 	}
 }
