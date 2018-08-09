@@ -9,7 +9,7 @@ class nchar
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
+		String s=sc.next();
 		int n=sc.nextInt();
 		String result="";
 		for(int i=s.length()-n;i<s.length();i++)
