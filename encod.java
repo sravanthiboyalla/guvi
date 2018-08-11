@@ -1,3 +1,5 @@
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -15,7 +17,15 @@ class encod
 		{
 			char ch=s.charAt(i);
 			ch=(char)(ch+3);
-			res=res+ch;
+			if(ch>='A'&&ch<='Z')
+			{
+				res=res+ch;
+			}
+			else
+			{
+				ch=(char)(((int)(ch-65))%26+65);
+				res=res+ch;
+			}
 		}
 		System.out.println(res);
 	}
