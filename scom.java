@@ -13,7 +13,7 @@ class scom
 		String s2=sc.next();
 		if(s1.length()==s2.length())
 		{
-			System.out.println(s1);
+			System.out.println(s2);
 		}
 		else
 		{
