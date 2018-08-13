@@ -24,10 +24,21 @@ class cro
 			int s=rev%10;
 			if(s%2==1)
 			{
-				System.out.print(s+" ");	
+				re=re*10+s;	
 			}
 			rev=rev/10;
 		}
-		
+		String b=Integer.toString(re);
+		for(int i=0;i<b.length();i++)
+		{
+			if(i==b.length()-1)
+			{
+				System.out.print(b.charAt(i));
+			}
+			else
+			{
+				System.out.print(b.charAt(i)+" ");
+			}
+		}
 	}
 }
