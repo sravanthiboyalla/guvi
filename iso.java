@@ -29,7 +29,7 @@ class iso
 				break;
 			}
 		}
-		if(count>0&&count1>0)
+		if(count==count1)
 		{
 			System.out.println("yes");
 		}
