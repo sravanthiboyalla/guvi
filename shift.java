@@ -16,41 +16,30 @@ class shift
 		{
 			a[i]=sc.nextInt();
 		}
-		if(n>k)
+		for(int i=0;i<k;i++)
 		{
-			for(int i=n-k;i<n;i++)
+			int temp=a[0];
+			for(int j=0;j<n;j++)
 			{
-				System.out.print(a[i]+" ");
-			}
-			for(int i=0;i<k-1;i++)
-			{
-				if(i==k-2)
+				if(j==n-1)
 				{
-					System.out.print(a[i]);
-				}	
+					a[j]=temp;
+				}
 				else
 				{
-					System.out.print(a[i]+" ");
+					a[j]=a[j+1];
 				}
 			}
 		}
-		else
+		for(int j=0;j<n;j++)
 		{
-			k=n%k;
-			for(int i=n-k;i<n;i++)
+			if(j==n-1)
 			{
-				System.out.print(a[i]+" ");
+				System.out.print(a[j]);
 			}
-			for(int i=0;i<k-1;i++)
+			else
 			{
-				if(i==k-2)
-				{
-					System.out.print(a[i]);
-				}	
-				else
-				{
-					System.out.println(a[i]+" ");
-				}
+				System.out.print(a[j]+" ");
 			}
 		}
 	}
