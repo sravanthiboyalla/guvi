@@ -10,7 +10,7 @@ class ndivin
 		// your code goes here		
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		if(n%3==0||n%7==0)
+		if(n%3==0||n%7==0||n%10==0)
 		{
 			System.out.println("yes");
 		}
