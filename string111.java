@@ -23,7 +23,7 @@ class string111
 				count1++;
 			}
 		}
-		if((count==s.length()-1)||(count==s.length())
+		if((count==s.length()-1)||(count==s.length()))
 		{
 			System.out.println("yes");
 		}
