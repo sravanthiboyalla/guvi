@@ -9,11 +9,11 @@ class mathpo
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		int c=sc.nextInt();
-		int d=(int)Math.pow(a,b);
-		int e=d%c;
+		long a=sc.nextInt();
+		long b=sc.nextInt();
+		long c=sc.nextInt();
+		long d=(long)Math.pow(a,b);
+		long e=(long)d%c;
 		System.out.println(e);
 	}
 }
