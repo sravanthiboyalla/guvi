@@ -14,7 +14,7 @@ class catalon
 		int cnt=1;
 		if(n>=0&&n<=10)
 		{
-			for(a=1;a<=n;a++)
+			for(a=0;a<=n;a++)
 			{
 				long factofa=1,factof2a=1;
 				for(long i=1;i<=a;i++)
