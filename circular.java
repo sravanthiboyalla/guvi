@@ -12,7 +12,7 @@ class circular
 		String s=sc.next();
 		for(int i=0;i<s.length();i++)
 		{
-			if((s.charAt(i)==s.charAt(s.length()-1))&&s.contains("R")&&s.contains("L"))
+			if((s.charAt(i)==s.charAt(s.length()-1))&&s.contains("R")||s.contains("L"))
 			{
 				System.out.println("yes");
 			}
