@@ -11,7 +11,7 @@ class stanagram
 		int count=0;
 		if(s.length()==s1.length())
 		{
-			if(!(s.equals(s1)))
+			if(s.equals(s1))
 			{
 				System.out.println("no");	
 			}
