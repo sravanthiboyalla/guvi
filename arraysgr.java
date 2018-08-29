@@ -17,13 +17,20 @@ class arraysgr
 		}
 		int j=0;
 		Arrays.sort(a);
-		for(int i=0;i<n;i++)
+		if(n==1)
 		{
-			if(a[i]<=k)
+			j=0;
+		}
+		else
+		{
+			for(int i=0;i<n;i++)
 			{
-				j=i;
+				if(a[i]<=k)
+				{
+					j=i+1;
+				}
 			}
 		}
-		System.out.println(a[j+1]);
+		System.out.println(a[j]);
 	}
 }
