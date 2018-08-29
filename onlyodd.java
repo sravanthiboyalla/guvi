@@ -28,7 +28,7 @@ class onlyodd
 			{
 				k=k+di;	
 			}
-			i++;
+			j++;
 			rev=rev/10;
 		}
 		if(k%2==0)
