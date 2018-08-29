@@ -19,12 +19,12 @@ class onlyodd
 			n=n/10;
 		}
 		int di=0;
-		int i=1;
+		int j=1;
 		int k=0;
 		while(rev>0)
 		{
 			di=rev%10;
-			if(i%2==1)
+			if(j%2==1)
 			{
 				k=k+di;	
 			}
