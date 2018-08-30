@@ -19,6 +19,21 @@ class iland
 					a[i][j]=sc.nextInt();
 				}
 			}
+			if(n==1)
+			{
+				for(i=0;i<n;i++)
+				{
+					for(j=0;j<n;j++)
+					{
+						if(a[i][j]==1)
+						{
+							count++;
+						}
+					}
+				}
+			}
+			else
+			{
 			for(i=0;i<n;i++)
 			{
 				for(j=0;j<n;j++)
@@ -91,6 +106,7 @@ class iland
 					}
 				}
 			}
-			System.out.println(count);
+		}
+		System.out.println(count);
 	}
 }
