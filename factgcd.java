@@ -12,26 +12,20 @@ class factgcd
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		int fact=1;
-		int fact1=1;
 		int i;
-		for(i=1;i<=a;i++)
+		if(a>b)
 		{
-			fact=fact*i;
-		}
-		for(i=1;i<=b;i++)
-		{
-			fact1=fact1*i;
-		}
-		while(fact!=fact1)
-		{
-			if(fact>fact1)
+			for(i=1;i<=b;i++)
 			{
-				fact=fact-fact1;
+				fact=fact*i;
 			}
-			else
+		}
+		else
+		{
+			for(i=1;i<=a;i++)
 			{
-				fact1=fact1-fact;
-			}
+				fact=fact*i;
+			}	
 		}
 		System.out.println(fact);
 	}
