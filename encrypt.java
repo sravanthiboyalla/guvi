@@ -46,3 +46,4 @@ class encrypt
 		}
 		System.out.println(re);
 	}
+}
