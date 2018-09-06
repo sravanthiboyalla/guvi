@@ -9,7 +9,7 @@ class slp
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		String s=sc.next();
+		String s=sc.nextLine();
 		int d=s.length();
 		int count=0;
 		for(int i=2;i<d;i++)
