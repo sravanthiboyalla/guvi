@@ -28,7 +28,7 @@ class indexdiff
 		int max1=0;
 		for(int i=0;i<n;i++)
 		{
-			if(max<a[i])
+			if(max<=a[i])
 			{
 				max1=i;
 			}
