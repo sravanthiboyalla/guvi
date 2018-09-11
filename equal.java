@@ -15,11 +15,11 @@ class equal
 		int c=a+b;
 		if(n%c==0)
 		{
-			System.out.println("Yes");	
+			System.out.println("YES");	
 		}
 		else
 		{
-			System.out.println("No");
+			System.out.println("NO");
 		}
 	}
 }
