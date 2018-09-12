@@ -16,22 +16,50 @@ class pro3
 		if(s1.length()>s2.length())
 		{
 			c=s1.length()-s2.length();
-			for(int i=0;i<s2.length();i++)
+			if(s2.length()==1)
 			{
-				if(s1.charAt(i)!=s2.charAt(i))
+				if(s1.contains(s2))
+				{
+					count=0;
+				}
+				else
 				{
 					count++;
+				}
+			}
+			else
+			{
+				for(int i=0;i<s2.length();i++)
+				{
+					if(s1.charAt(i)!=s2.charAt(i))
+					{
+						count++;
+					}
 				}
 			}
 		}
 		else
 		{
 			c=s2.length()-s1.length();
-			for(int i=0;i<s1.length();i++)
+			if(s1.length()==1)
 			{
-				if(s1.charAt(i)!=s2.charAt(i))
+				if(s2.contains(s1))
+				{
+					count=0;
+				}
+				else
 				{
 					count++;
+				}
+			}
+			else
+			{
+				for(int i=0;i<s1.length();i++)
+				{
+					if(s1.charAt(i)!=s2.charAt(i))
+					{
+						count++;
+					}
 				}
 			}
 		}
