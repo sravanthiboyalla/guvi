@@ -12,9 +12,9 @@ class pro57
 		String s=sc.next();
 		String k=sc.next();
 		int count=0;
-		for(int i=0;i<s.length();i++)
+		for(int i=0;i<s.length()-1;i++)
 		{
-			for(int j=0;j<k.length();j++)
+			for(int j=0;j<k.length()-1;j++)
 			{
 				if(s.charAt(i)==k.charAt(j)&&s.charAt(i+1)==k.charAt(j+1))
 				{
