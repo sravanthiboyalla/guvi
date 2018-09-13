@@ -20,7 +20,7 @@ class pro8
 		{
 			int b=sc.nextInt();
 			int c=sc.nextInt();
-			if(b==c)
+			if(b==c||k==1)
 			{
 				System.out.println(a[b-1]);
 			}
