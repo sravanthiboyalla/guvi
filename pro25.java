@@ -26,10 +26,6 @@ class pro25
 					count++;
 					a[i]=a[j];
 				}
-				else if(a[i]==a[j])
-				{
-					a[i]=a[j];
-				}
 				else
 				{
 					break;
