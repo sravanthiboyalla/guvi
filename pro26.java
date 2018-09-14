@@ -21,9 +21,13 @@ class pro26
 			int count=0;
 			for(int j=i+1;j<n;j++)
 			{
-				if(a[i]<=a[j])
+				if(a[i]<a[j])
 				{
 					count++;
+					a[i]=a[j];
+				}
+				else if(a[i]==a[j])
+				{
 					a[i]=a[j];
 				}
 				else
