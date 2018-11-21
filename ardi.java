@@ -30,10 +30,12 @@ class ardi
 				if(count1==0)
 				{
 					System.out.print(a[i]);
+					count1++;
 				}
 				else
 				{
 					System.out.print(" "+a[i]);
+					count1++;
 				}
 			}
 		}
