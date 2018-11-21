@@ -11,7 +11,7 @@ class mostre
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
 		int k=0;
-		char A=s.charAt(0);
+		String A=s.substring(0,1);
 		for(int i=0;i<s.length();i++)
 		{
 			int count=0;
@@ -25,7 +25,7 @@ class mostre
 			if(k<count)
 			{
 				k=count;
-				A=s.charAt(i);
+				A=s.substring(i,i+1);
 			}
 		}
 		System.out.println(A);
