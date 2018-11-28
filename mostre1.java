@@ -17,7 +17,7 @@ class mostre1
 		}
 		int count=0;
 		int k=0;
-		for(int i=0;i<n;i++)
+		for(int i=0;i<n-1;i++)
 		{
 			int count1=0;
 			for(int j=0;j<n;j++)
