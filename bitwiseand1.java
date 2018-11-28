@@ -19,7 +19,7 @@ class bitwiseand1
 		ArrayList<Integer> b=new ArrayList<Integer>();
 		for(int i=0;i<n;i++)
 		{
-			for(int j=i;j<n;j++)
+			for(int j=0;j<n;j++)
 			{
 				int x=a[i]&a[j];
 				b.add(x);
